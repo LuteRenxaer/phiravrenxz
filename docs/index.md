@@ -22,20 +22,20 @@ hero:
 
 ## 下载 {#download}
 
-预编译版本发布在 GitHub Releases。当前最新为 v1.3.15fix（2026-08-23），更新内容是修复 bug 并新增谱面 Phira-Firefly Tutorial EX。
+预编译版本发布在 GitHub Releases。当前最新为 1.3.2（2026-09-16），多人联机、首启向导与这一批判定调整都在这个版本里。
 
 <div class="pv-cards">
   <div class="pv-card">
     <div class="pv-card-title">Windows 桌面端</div>
-    <div class="pv-card-file">PhirLie_v1.3.15_PC_fix.zip</div>
-    <div class="pv-card-meta">268.9 MB，解压后运行里面的可执行文件</div>
-    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/Release_version_1315fix/PhirLie_v1.3.15_PC_fix.zip">下载 PC 版</a>
+    <div class="pv-card-file">Phira-Vrenxz-PC1.3.2.zip</div>
+    <div class="pv-card-meta">168.6 MB，解压后运行里面的可执行文件</div>
+    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/1320/Phira-Vrenxz-PC1.3.2.zip">下载 PC 版</a>
   </div>
   <div class="pv-card">
     <div class="pv-card-title">Android</div>
-    <div class="pv-card-file">PhirLie_v1.3.15_fix.apk</div>
-    <div class="pv-card-meta">243.4 MB，直接安装，首次需要允许「未知来源」</div>
-    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/Release_version_1315fix/PhirLie_v1.3.15_fix.apk">下载 APK</a>
+    <div class="pv-card-file">Phira-Vrenxz1.3.2.apk</div>
+    <div class="pv-card-meta">173.3 MB，直接安装，首次需要允许「未知来源」</div>
+    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/1320/Phira-Vrenxz1.3.2.apk">下载 APK</a>
   </div>
   <div class="pv-card">
     <div class="pv-card-title">从源码构建</div>
@@ -47,7 +47,7 @@ hero:
 
 历史版本和更新日志在 [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases)，也可以看[版本更新记录](changes/changelog.md)。
 
-> 最新的发行版是 v1.3.15fix（2026-08-23），发布于多人联机与首启向导之前 —— 房间、联机这些目前只在源码里，需要自行构建。改动清单一并放在[与 Phira 的区别](changes/index.md)里。
+> 1.3.2（2026-09-16）已经把多人联机、首启向导与这批判定改动都发了出版本，直接从上面的卡片下载即可。改动清单一并放在[与 Phira 的区别](changes/index.md)里。
 
 ## 多人联机 {#multiplayer}
 

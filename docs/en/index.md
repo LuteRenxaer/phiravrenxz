@@ -22,20 +22,20 @@ hero:
 
 ## Download {#download}
 
-Pre-built binaries are on GitHub Releases. Latest is v1.3.15fix (2026-08-23).
+Pre-built binaries are on GitHub Releases. Latest is 1.3.2 (2026-09-16), which ships multiplayer, the first-run wizard and the judgement changes.
 
 <div class="pv-cards">
   <div class="pv-card">
     <div class="pv-card-title">Windows desktop</div>
-    <div class="pv-card-file">PhirLie_v1.3.15_PC_fix.zip</div>
-    <div class="pv-card-meta">268.9 MB, unzip and run the executable inside</div>
-    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/Release_version_1315fix/PhirLie_v1.3.15_PC_fix.zip">Download for PC</a>
+    <div class="pv-card-file">Phira-Vrenxz-PC1.3.2.zip</div>
+    <div class="pv-card-meta">168.6 MB, unzip and run the executable inside</div>
+    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/1320/Phira-Vrenxz-PC1.3.2.zip">Download for PC</a>
   </div>
   <div class="pv-card">
     <div class="pv-card-title">Android</div>
-    <div class="pv-card-file">PhirLie_v1.3.15_fix.apk</div>
-    <div class="pv-card-meta">243.4 MB, install directly (allow unknown sources once)</div>
-    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/Release_version_1315fix/PhirLie_v1.3.15_fix.apk">Download APK</a>
+    <div class="pv-card-file">Phira-Vrenxz1.3.2.apk</div>
+    <div class="pv-card-meta">173.3 MB, install directly (allow unknown sources once)</div>
+    <a class="pv-btn pv-btn-primary" href="https://github.com/LuteRenxaer/Phira-Vrenxz/releases/download/1320/Phira-Vrenxz1.3.2.apk">Download APK</a>
   </div>
   <div class="pv-card">
     <div class="pv-card-title">Build from source</div>
@@ -47,7 +47,7 @@ Pre-built binaries are on GitHub Releases. Latest is v1.3.15fix (2026-08-23).
 
 All versions and release notes: [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases), or see the [release notes](changes/changelog.md).
 
-> The latest release is v1.3.15fix (2026-08-23) and predates the multiplayer and first-run work — rooms and online play currently only exist in the source tree. See [Differences from Phira](changes/index.md) for the full list.
+> 1.3.2 (2026-09-16) ships multiplayer, the first-run wizard and the judgement changes, so the cards above are enough — no need to build from source. See [Differences from Phira](changes/index.md) for the full list.
 
 ## Multiplayer {#multiplayer}
 

@@ -1,10 +1,12 @@
 # Release notes
 
-Newest first. Published versions come from the project releases on GitHub and are quoted as published (they are written in Chinese); character-related entries have been removed. The first section covers changes that are in the source tree but not released yet.
+Newest first, compiled from the project releases on GitHub (they are written in Chinese, and character-related entries have been removed). The release note for 1.3.2 was a single line, so its entry is filled in from what the version actually shipped.
 
-## Source (unreleased)
+## 1.3.2 — 2026-09-16
 
-These changes are in the source tree with no release behind them, from commit `e0c4b51` (the multiplayer / first-run / judgement batch) onwards. Build from source to use them.
+- Release note as published: 小更新喵喵喵
+
+This version publishes the multiplayer / first-run / judgement batch that was previously source-only:
 
 Multiplayer:
 
@@ -33,6 +35,8 @@ Interface and first run:
 Judgement:
 
 - Flick matches Phira: it is no longer "pre-judged" into a free Perfect before you actually swipe, and the late-press protection was added
+
+Assets: Phira-Vrenxz1.3.2.apk (173.3 MB), Phira-Vrenxz-PC1.3.2.zip (168.6 MB)
 
 ## v1.3.15fix — 2026-08-23
 

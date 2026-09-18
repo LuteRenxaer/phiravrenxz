@@ -11,32 +11,11 @@ Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart 
 - New "Custom" section in settings: UI position, home UI offset, accent colour and more
 - "Legacy home mode": switch back to the old home background and music
 - Score display on by default, off on low resolution to save performance
+- Full-screen adaptation: window ratios from 21:9 to 9:16 (16:10, 4:3 and portrait included) share one layout
+- The loading screen was re-animated: the background slides in from the right, the panel fades in offset to the left, the cover fades in; pressing start fires a full-screen white flash that sits on top and fades out once the slide finishes
+- The start button on the song select screen is now a white parallelogram, cut flat on the right and flush with the screen edge; its icon is scaled down proportionally and dims while held
 
-## Charts
-
-- Export supports the .pez format
-- Batch chart download
-- Bundled charts
-- Fixed a crash in the chart library
-
-## Input and judgement
-
-- Replaced the system input box with an in-game one
-- Fixed copy and paste in the input box
-- Fixed drag / flick keyboard judgement and stuck keys with IMEs
-
-## Other
-
-- Fixed crashes with video playback and unlock animations
-- Bundled XC-SIM (requires sign-in)
-- Removed the console window on Windows
-- Android packages are provided since v1.3.0
-
-## In the source, not in any release yet
-
-These are already in the source tree but **not included in any published build**, so you have to build from source to use them.
-
-### Multiplayer
+## Multiplayer
 
 - A built-in Phira-MP client: room list and room codes, host chart picking, ready-up, in-room chat, and self-hosted servers
 - No spectating and no results screen: a match ends straight back in the room, where you can queue another one
@@ -53,24 +32,32 @@ These are already in the source tree but **not included in any published build**
 - The buttons at the end of the top bar are laid out by text width
 - The bold black line on the right is gone, and the bright end of the bottom-right gradient is brighter
 
-### First-run wizard
+## Charts
+
+- Export supports the .pez format
+- Batch chart download
+- Bundled charts
+- Fixed a crash in the chart library
+
+## Input and judgement
+
+- Replaced the system input box with an in-game one
+- Fixed copy and paste in the input box
+- Fixed drag / flick keyboard judgement and stuck keys with IMEs
+- Flick matches Phira: it is no longer "pre-judged" into a free Perfect before you actually swipe, and the late-press protection was added
+
+## First-run wizard
 
 - A new first-run wizard walks through language, sign-in, volume, other settings and a final confirmation before the game reaches the main screen; its layout sits to the right
 - The last step asks whether to play the tutorial; every step can be skipped forward, and you can get into the game without an account
 - Returning players do not see it again: if the data already has a chosen language (`has_chosen_language`), the wizard counts as done
 
-### Interface
+## Other
 
-- Full-screen adaptation: window ratios from 21:9 to 9:16 (16:10, 4:3 and portrait included) share one layout
-- The loading screen was re-animated: the background slides in from the right, the panel fades in offset to the left, the cover fades in; pressing start fires a full-screen white flash that sits on top and fades out once the slide finishes
-- The start button on the song select screen is now a white parallelogram, cut flat on the right and flush with the screen edge; its icon is scaled down proportionally and dims while held
-
-### Judgement
-
-- Flick matches Phira: it is no longer "pre-judged" into a free Perfect before you actually swipe, and the late-press protection was added
-
-### Data
-
+- Fixed crashes with video playback and unlock animations
+- Bundled XC-SIM (requires sign-in)
+- Removed the console window on Windows
+- Android packages are provided since v1.3.0
 - Legacy data sync: on startup the game looks for an old PhirLie / Phira-Vrenxz data folder and offers to sync it. The prompt only appears once; afterwards use **Settings → Storage → Sync legacy data**
 
 ## Release notes
