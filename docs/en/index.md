@@ -45,9 +45,9 @@ Pre-built binaries are on GitHub Releases. Latest is v1.3.15fix (2026-08-23).
   </div>
 </div>
 
-All versions and release notes: [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases), or see the [release notes](/en/changes/changelog).
+All versions and release notes: [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases), or see the [release notes](changes/changelog.md).
 
-> The latest release is v1.3.15fix (2026-08-23) and predates the multiplayer work — rooms, spectating and the like currently only exist in the source tree. See [Differences from Phira](/en/changes/) for the full list.
+> The latest release is v1.3.15fix (2026-08-23) and predates the multiplayer and first-run work — rooms and online play currently only exist in the source tree. See [Differences from Phira](changes/index.md) for the full list.
 
 ## Multiplayer {#multiplayer}
 
@@ -62,7 +62,7 @@ Room list: <http://110.42.63.208:31206/api/rooms>
 1. Open the game and click **Multiplayer** in the main menu.
 2. Enter the server address (the official one is pre-filled) and connect.
 3. Create a room or join one from the public room list. Room IDs allow up to 20 letters, digits, <code>-</code> and <code>_</code>.
-4. The host picks a chart, everyone readies up and the host starts. Results are automatic, and you can spectate.
+4. The host picks a chart, everyone readies up and the host starts. When a match ends you go straight back to the room for another one.
 
 To self-host, run <code>phira-mp-server</code> and point the client at your own address. The admin HTTP / WebSocket service runs on game port + 1 (<code>/api/*</code> and <code>/ws</code>).
 
@@ -81,6 +81,15 @@ To self-host, run <code>phira-mp-server</code> and point the client at your own 
 On startup the game looks for an old PhirLie / Phira-Vrenxz <code>data</code> folder and asks whether to sync it. Your current <code>data.json</code> is backed up first, the old data is merged in, and you are asked to restart.
 
 The prompt appears once; afterwards use **Settings → Storage → Sync legacy data**.
+
+  </div>
+</details>
+
+<details class="pv-faq">
+  <summary>Do I have to set everything up again after an update?</summary>
+  <div class="pv-faq-body">
+
+The first launch runs a wizard: language, sign-in, volume, other settings, then a final confirmation that also asks whether you want to play the tutorial. Returning players (data that already has a chosen language) do not see it again, and every setting can be changed later in the settings screen.
 
   </div>
 </details>

@@ -45,9 +45,9 @@ hero:
   </div>
 </div>
 
-历史版本和更新日志在 [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases)，也可以看[版本更新记录](/changes/changelog)。
+历史版本和更新日志在 [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases)，也可以看[版本更新记录](changes/changelog.md)。
 
-> 最新的发行版是 v1.3.15fix（2026-08-23），发布于多人联机之前 —— 房间、观战这些目前只在源码里，需要自行构建。改动清单一并放在[与 Phira 的区别](/changes/)里。
+> 最新的发行版是 v1.3.15fix（2026-08-23），发布于多人联机与首启向导之前 —— 房间、联机这些目前只在源码里，需要自行构建。改动清单一并放在[与 Phira 的区别](changes/index.md)里。
 
 ## 多人联机 {#multiplayer}
 
@@ -66,7 +66,7 @@ hero:
 1. 打开游戏，在主菜单点「多人游戏」。
 2. 填服务器地址（默认已经填好官方服务器），点连接。
 3. 创建房间，或者从公共房间列表加入。房间号由不超过 20 位的大小写字母、数字以及 <code>-</code> <code>_</code> 组成。
-4. 房主选谱，其他人点「准备」，房主开始游戏。打完自动结算，也可以观战。
+4. 房主选谱，其他人点「准备」，房主开始游戏。一局打完直接回房间页，可以接着再来一局。
 
 自建服务器用 <code>phira-mp-server</code>，客户端在「多人游戏 → 连接」里把地址改成自己的域名或 IP 即可。房间、封禁、维护这些管理接口在游戏端口 +1 的 HTTP 服务上（<code>/api/*</code> 与 <code>/ws</code>）。
 
@@ -93,7 +93,16 @@ hero:
   <summary>和原版 Phira 有什么区别？</summary>
   <div class="pv-faq-body">
 
-Phira-Vrenxz 是 Phira 的分支，谱面标准、判定和核心玩法保持一致，在此基础上重做了界面，加入了多人联机。账号沿用 Phira 的线上账号。
+Phira-Vrenxz 是 Phira 的分支，谱面标准、判定和核心玩法保持一致，在此基础上重做了界面，加入了多人联机，并做了全屏比例适配（21:9 ~ 9:16）。账号沿用 Phira 的线上账号。
+
+  </div>
+</details>
+
+<details class="pv-faq">
+  <summary>换了新版本要重新设置一遍吗？</summary>
+  <div class="pv-faq-body">
+
+首次启动会走一遍向导：语言 → 登录 → 音量 → 其他设置 → 最后确认，最后一步会问要不要玩新手教程。老玩家（数据里已经选过语言的）不会重走这一步，所有设置之后都能在设置页里改。
 
   </div>
 </details>
@@ -111,7 +120,7 @@ Phira-Vrenxz 是 Phira 的分支，谱面标准、判定和核心玩法保持一
   <summary>开源与许可</summary>
   <div class="pv-faq-body">
 
-游戏本体以 **GPL-3.0** 许可开源，源码在 [GitHub](https://github.com/LuteRenxaer/Phira-Vrenxz)。它是 [Phira](https://github.com/TeamFlos/phira) 的分支，玩法受 Phigros 启发。文档内容来自 [TeamFlos/phira-docs](https://github.com/TeamFlos/phira-docs)（CC BY 4.0），说明见[关于本文档](/about)。
+游戏本体以 **GPL-3.0** 许可开源，源码在 [GitHub](https://github.com/LuteRenxaer/Phira-Vrenxz)。它是 [Phira](https://github.com/TeamFlos/phira) 的分支，玩法受 Phigros 启发。文档内容来自 [TeamFlos/phira-docs](https://github.com/TeamFlos/phira-docs)（CC BY 4.0），说明见[关于本文档](about.md)。
 
   </div>
 </details>

@@ -1,6 +1,38 @@
 # Release notes
 
-Newest first. The notes come from the project releases on GitHub and are quoted as published (they are written in Chinese); character-related entries have been removed.
+Newest first. Published versions come from the project releases on GitHub and are quoted as published (they are written in Chinese); character-related entries have been removed. The first section covers changes that are in the source tree but not released yet.
+
+## Source (unreleased)
+
+These changes are in the source tree with no release behind them, from commit `e0c4b51` (the multiplayer / first-run / judgement batch) onwards. Build from source to use them.
+
+Multiplayer:
+
+- No spectating
+- No results screen: a match ends straight back in the room
+- The room-selection (lobby) page was rebuilt, its stat blocks following the parallelogram style of `ending.rs`
+- The connect page keeps only two buttons: connect and back to home
+- The pause / resume countdown is back to 3 seconds
+
+Room page:
+
+- The score cards lost their black-and-white gradient background
+- The grade slot shows the real grade (F / C / B / A / S / V)
+- The start button is greyed out and disabled instead of being hidden when the conditions are not met
+- Picking a chart starts downloading / syncing it in the background right away
+- The buttons at the end of the top bar are laid out by text width
+- The bold black line on the right is gone, and the bright end of the bottom-right gradient is brighter
+
+Interface and first run:
+
+- A new first-run wizard: language, sign-in, volume, other settings, final confirmation, and only then the main screen; returning players do not see it again
+- The loading screen was re-animated: the background slides in from the right, the panel fades in offset to the left, the cover fades in; pressing start fires a full-screen white flash
+- The start button on the song select screen is now a white parallelogram, with a proportionally smaller icon that dims while held
+- Full-screen adaptation: 16:10, 21:9, 4:3 and portrait all lay out correctly (supported range 21:9 to 9:16)
+
+Judgement:
+
+- Flick matches Phira: it is no longer "pre-judged" into a free Perfect before you actually swipe, and the late-press protection was added
 
 ## v1.3.15fix — 2026-08-23
 
