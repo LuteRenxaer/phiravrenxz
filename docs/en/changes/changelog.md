@@ -1,12 +1,10 @@
 # Release notes
 
-Newest first, compiled from the project releases on GitHub (they are written in Chinese, and character-related entries have been removed). The release note for 1.3.2 was a single line, so its entry is filled in from what the version actually shipped.
+Newest first. Published versions are compiled from the project releases on GitHub (they are written in Chinese, and character-related entries have been removed). The first section covers changes that have not been released.
 
-## 1.3.2 — 2026-09-16
+## Unreleased (source)
 
-- Release note as published: 小更新喵喵喵
-
-This version publishes the multiplayer / first-run / judgement batch that was previously source-only:
+These changes are in the source tree (some of them only in the working copy, not committed) and **have not shipped in any release**; build from source to use them. The current release is 1.3.2 (2026-09-16), and all of this was written after it.
 
 Multiplayer:
 
@@ -15,15 +13,7 @@ Multiplayer:
 - The room-selection (lobby) page was rebuilt, its stat blocks following the parallelogram style of `ending.rs`
 - The connect page keeps only two buttons: connect and back to home
 - The pause / resume countdown is back to 3 seconds
-
-Room page:
-
-- The score cards lost their black-and-white gradient background
-- The grade slot shows the real grade (F / C / B / A / S / V)
-- The start button is greyed out and disabled instead of being hidden when the conditions are not met
-- Picking a chart starts downloading / syncing it in the background right away
-- The buttons at the end of the top bar are laid out by text width
-- The bold black line on the right is gone, and the bright end of the bottom-right gradient is brighter
+- Room page: the score cards lost their black-and-white gradient background; the grade slot shows the real grade (F / C / B / A / S / V); the start button is greyed out and disabled instead of hidden; picking a chart starts downloading / syncing it in the background right away; the buttons at the end of the top bar are laid out by text width; the bold black line on the right is gone and the bright end of the bottom-right gradient is brighter
 
 Interface and first run:
 
@@ -35,6 +25,12 @@ Interface and first run:
 Judgement:
 
 - Flick matches Phira: it is no longer "pre-judged" into a free Perfect before you actually swipe, and the late-press protection was added
+
+## 1.3.2 — 2026-09-16
+
+- Release note as published: 小更新喵喵喵
+
+That single line is all the release note says; for the actual contents, see the repository history. Everything in the section above was written after this version, so it is not in 1.3.2.
 
 Assets: Phira-Vrenxz1.3.2.apk (173.3 MB), Phira-Vrenxz-PC1.3.2.zip (168.6 MB)
 

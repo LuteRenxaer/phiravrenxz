@@ -1,6 +1,8 @@
 # Differences from Phira
 
-Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart standard, judgement and core gameplay are unchanged; the work went into the UI and a set of things you can adjust yourself. The list below is grouped by area and comes from the project's release notes on GitHub.
+Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart standard, judgement and core gameplay are unchanged; the work went into the UI and a set of things you can adjust yourself. The list below is grouped by area.
+
+> The current release is 1.3.2 (2026-09-16). Anything marked **unreleased** exists only in the source tree (some of it is not even committed) and has **not shipped in any release**, so a downloaded build will not have it; build from source to use it, see the [build guide](../phira_build_guide/index.md).
 
 ## Interface
 
@@ -11,11 +13,16 @@ Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart 
 - New "Custom" section in settings: UI position, home UI offset, accent colour and more
 - "Legacy home mode": switch back to the old home background and music
 - Score display on by default, off on low resolution to save performance
+
+These three are **unreleased**:
+
 - Full-screen adaptation: window ratios from 21:9 to 9:16 (16:10, 4:3 and portrait included) share one layout
 - The loading screen was re-animated: the background slides in from the right, the panel fades in offset to the left, the cover fades in; pressing start fires a full-screen white flash that sits on top and fades out once the slide finishes
 - The start button on the song select screen is now a white parallelogram, cut flat on the right and flush with the screen edge; its icon is scaled down proportionally and dims while held
 
 ## Multiplayer
+
+This section describes the multiplayer flow in the source tree, which is **unreleased** and has to be built from source.
 
 - A built-in Phira-MP client: room list and room codes, host chart picking, ready-up, in-room chat, and self-hosted servers
 - No spectating and no results screen: a match ends straight back in the room, where you can queue another one
@@ -44,9 +51,14 @@ Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart 
 - Replaced the system input box with an in-game one
 - Fixed copy and paste in the input box
 - Fixed drag / flick keyboard judgement and stuck keys with IMEs
+
+This one is **unreleased**:
+
 - Flick matches Phira: it is no longer "pre-judged" into a free Perfect before you actually swipe, and the late-press protection was added
 
 ## First-run wizard
+
+This section describes the first-run flow in the source tree, which is **unreleased** and has to be built from source.
 
 - A new first-run wizard walks through language, sign-in, volume, other settings and a final confirmation before the game reaches the main screen; its layout sits to the right
 - The last step asks whether to play the tutorial; every step can be skipped forward, and you can get into the game without an account
@@ -58,6 +70,9 @@ Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart 
 - Bundled XC-SIM (requires sign-in)
 - Removed the console window on Windows
 - Android packages are provided since v1.3.0
+
+This one is **unreleased**:
+
 - Legacy data sync: on startup the game looks for an old PhirLie / Phira-Vrenxz data folder and offers to sync it. The prompt only appears once; afterwards use **Settings → Storage → Sync legacy data**
 
 ## Release notes

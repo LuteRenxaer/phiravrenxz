@@ -22,7 +22,7 @@ hero:
 
 ## Download {#download}
 
-Pre-built binaries are on GitHub Releases. Latest is 1.3.2 (2026-09-16), which ships multiplayer, the first-run wizard and the judgement changes.
+Pre-built binaries are on GitHub Releases. Latest is 1.3.2 (2026-09-16).
 
 <div class="pv-cards">
   <div class="pv-card">
@@ -47,9 +47,11 @@ Pre-built binaries are on GitHub Releases. Latest is 1.3.2 (2026-09-16), which s
 
 All versions and release notes: [Releases](https://github.com/LuteRenxaer/Phira-Vrenxz/releases), or see the [release notes](changes/changelog.md).
 
-> 1.3.2 (2026-09-16) ships multiplayer, the first-run wizard and the judgement changes, so the cards above are enough — no need to build from source. See [Differences from Phira](changes/index.md) for the full list.
+> The cards above point at 1.3.2 (2026-09-16), the current release. The multiplayer room page details, the first-run wizard, the Flick judgement and the full-screen adaptation are all **unreleased** — a downloaded build will not have them; see the [build guide](phira_build_guide/index.md) to build from source. See [Differences from Phira](changes/index.md) for the full list.
 
 ## Multiplayer {#multiplayer}
+
+What follows describes the multiplayer flow in the source tree (no spectating, no results screen, rebuilt lobby and connect pages); it is **unreleased** and has to be built from source.
 
 | | |
 | --- | --- |
@@ -89,7 +91,7 @@ The prompt appears once; afterwards use **Settings → Storage → Sync legacy d
   <summary>Do I have to set everything up again after an update?</summary>
   <div class="pv-faq-body">
 
-The first launch runs a wizard: language, sign-in, volume, other settings, then a final confirmation that also asks whether you want to play the tutorial. Returning players (data that already has a chosen language) do not see it again, and every setting can be changed later in the settings screen.
+The source tree adds a first-run wizard: language, sign-in, volume, other settings, then a final confirmation that also asks whether you want to play the tutorial; returning players (data that already has a chosen language) do not see it again. The wizard is **unreleased** and needs a build from source; released builds still change everything from the settings screen.
 
   </div>
 </details>
