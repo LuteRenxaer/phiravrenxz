@@ -14,8 +14,9 @@ Phira-Vrenxz is a fork of [Phira](https://github.com/TeamFlos/phira). The chart 
 - "Legacy home mode": switch back to the old home background and music
 - Score display on by default, off on low resolution to save performance
 
-These three are **unreleased**:
+These four are **unreleased**:
 
+- A choice of built-in home backgrounds: `background.jpg`, `bg1.png`, `bg2.png`, `bg3.png` and `background_old.jpg` (the images are in the repo, the picker is not built yet)
 - Full-screen adaptation: window ratios from 21:9 to 9:16 (16:10, 4:3 and portrait included) share one layout
 - The loading screen was re-animated: the background slides in from the right, the panel fades in offset to the left, the cover fades in; pressing start fires a full-screen white flash that sits on top and fades out once the slide finishes
 - The start button on the song select screen is now a white parallelogram, cut flat on the right and flush with the screen edge; its icon is scaled down proportionally and dims while held

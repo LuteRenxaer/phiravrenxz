@@ -21,6 +21,7 @@ Interface and first run:
 - The loading screen was re-animated: the background slides in from the right, the panel fades in offset to the left, the cover fades in; pressing start fires a full-screen white flash
 - The start button on the song select screen is now a white parallelogram, with a proportionally smaller icon that dims while held
 - Full-screen adaptation: 16:10, 21:9, 4:3 and portrait all lay out correctly (supported range 21:9 to 9:16)
+- A choice of built-in home backgrounds: `background.jpg`, `bg1.png`, `bg2.png`, `bg3.png` and `background_old.jpg` (the images are in the repo, the picker is not built yet)
 
 Judgement:
 
